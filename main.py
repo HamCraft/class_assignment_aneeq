@@ -105,7 +105,7 @@ async def main():
         user_input = input("You: ")
 
         if user_input == "exit":
-            print("Goodbye!")
+            print("Goodbye!, Come back next time for more shopping assistance.")
             break
 
         convo_items.append({"content": user_input, "role": "user"})
